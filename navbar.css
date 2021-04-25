@@ -13,7 +13,7 @@ nav {
 
 @media (min-width: 768px) {
     .nav a {
-		letter-spacing: 5px;
+		letter-spacing: 10px;
 		margin-left: 50px;
 		margin-right: 50px;
 		font-size: 20px;
@@ -23,6 +23,7 @@ nav {
 @media (max-width: 768px) {
     .nav a {
 		letter-spacing: 5px;
+		font-size: 20px;
 	}
 }
 .nav li {
@@ -34,8 +35,7 @@ nav {
 	text-decoration: none;
 	margin-top: 10px;
 	background: transparent;
-	font-size: 20px;
-	letter-spacing: 10px;
+	
 }
 
  
