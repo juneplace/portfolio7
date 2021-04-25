@@ -1,0 +1,30 @@
+.projects {
+  height: 100%;
+  padding: 75px;
+
+}
+.projects-view{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.projects h1 {
+    font-size: 70px;
+    font-family: 'Merriweather', serif;
+    color: #D99E30;
+}
+.modal {
+    width: 300px;
+    padding: 10px;
+    font-size:20px;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 50px;
+    bottom: 50px;
+    z-index: 9999;
+  }
+
+

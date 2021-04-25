@@ -1,0 +1,48 @@
+.contact {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    padding: 75px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.form {
+    grid-column: 1;
+    background-color: #113132;
+    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: ivory;
+}
+
+.contactme {
+    grid-column: 2;
+    justify-content: right;
+}
+
+.contactme h1 {
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    color: #D99E30;
+}
+
+.form label {
+    width: 100%;
+    letter-spacing: 3px;
+    font-variant: normal;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #D9AD2B;
+    border-bottom: 1px solid #D9AD2B;
+	line-height: 0.1em;
+    margin-top: 20px;
+}
+.form span{
+    background:#113132;  
+	font-family: 'Roboto', sans-serif;
+	font-variant: normal;
+}
+.btn {
+    margin-top: 50px;
+    background-color: #D9AD2B;
+}

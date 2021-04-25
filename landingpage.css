@@ -1,0 +1,55 @@
+@media (min-width: 768px)
+{
+	.heroText {
+		text-align: center;
+  		transform: translate(50%, 30%);
+		width: 50%;
+		height: 80%;
+		}
+	.heroText h1{
+		font-size: 100px;
+		letter-spacing: 60px;
+		font-family: Verdana, sans-serif;		
+}
+	.heroText p{
+		font-size: 40px;
+		letter-spacing: 10px;
+		font-family: 'Merriweather', serif;
+		
+		}
+	.heroText a{
+		font-size: 25px;
+		letter-spacing: 5px;
+		}
+}
+@media (max-width: 768px){
+	.heroText h1{
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;		
+		font-size: 50px;
+		color: #D99E30;
+
+	}
+	.heroText p{
+		font-size: 25px;
+		font-family: 'Montserrat', sans-serif;
+		
+	}
+	.heroText a{
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+    .heroText{
+		transform: translate(19%, 85%);
+		text-align: center;
+		width: 75%;
+		height: 50%;
+		
+	}
+}
+	
+.heroText {
+	position: absolute;
+
+}
+

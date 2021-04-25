@@ -1,0 +1,56 @@
+nav {
+	width: 100vw;
+	margin: 0; 
+	padding: 0; 
+	display: grid;
+	align-items: center;
+	transition: 0.5s ease;
+	z-index: 1;
+	height: 60px;
+	justify-content: center;
+
+}
+
+@media (min-width: 768px) {
+    .nav a {
+		letter-spacing: 5px;
+		margin-left: 50px;
+		margin-right: 50px;
+		font-size: 20px;
+		}
+    
+}
+@media (max-width: 768px) {
+    .nav a {
+		letter-spacing: 5px;
+	}
+}
+.nav li {
+	grid-template-columns: auto auto auto auto;
+	background: transparent;
+}
+.nav a {
+	padding: 12px 16px;
+	text-decoration: none;
+	margin-top: 10px;
+	background: transparent;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+ 
+.nav a:hover {
+	background: transparent;
+}
+
+nav a {
+	background: transparent;
+}
+
+
+
+
+
+
+
+
