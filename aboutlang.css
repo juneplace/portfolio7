@@ -14,14 +14,12 @@
 	line-height: 0.1em;
 	margin: 50px;
 	text-align: left;
-
  }
 .section-title{
 	color: #D99E30;
 }
 h1 {
 	font-family: 'Merriweather', serif;
-
 }
  
 @media (min-width: 375px) {

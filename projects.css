@@ -1,38 +1,63 @@
+.projects h1 {
+  font-family: 'Merriweather', serif;
+  color: #D99E30;
+}
 .projects {
   height: 100%;
   padding: 75px;
 
 }
-.projects-view{
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  justify-content: space-between;
-  align-content: center;
-}
-
-.projects h1 {
-    font-size: 70px;
-    font-family: 'Merriweather', serif;
-    color: #D99E30;
-}
-.modal {
-    width: 300px;
-    padding: 10px;
-    font-size:20px;
-    position: absolute;
-    right: 50px;
-    left: 50px;
-    top: 50px;
-    bottom: 50px;
-    z-index: 9999;
+@media (min-width: 375px){
+  .projects-view{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: space-between;
+    align-content: center;
   }
-  @media (max-width: 768px) {
+}
+@media (min-width: 768px) {
+  .projects-view{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+@media(min-width: 1024px){
     .projects-view{
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: 50% 50%;
       justify-content: space-between;
       align-content: center;
-    }
+  } 
+}
+
+@media(min-width: 1440px) {
+
+  .projects-view{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-between;
+    align-content: center;
   }
+  
+  .projects h1 {
+      font-size: 70px;
+
+  }
+  .modal {
+      width: 300px;
+      padding: 10px;
+      font-size:20px;
+      position: absolute;
+      right: 50px;
+      left: 50px;
+      top: 50px;
+      bottom: 50px;
+      z-index: 9999;
+    }
+}
+
+
 
 
