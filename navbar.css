@@ -1,43 +1,64 @@
 nav {
 	width: 100vw;
-	margin: 0; 
-	padding: 0; 
-	display: grid;
-	align-items: center;
 	transition: 0.5s ease;
-	z-index: 1;
 	height: 60px;
-	justify-content: center;
-
+	grid-column: 2 / 3;
+}
+.nav ul{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-    .nav a {
-		letter-spacing: 10px;
-		margin-left: 50px;
-		margin-right: 50px;
-		font-size: 20px;
-		}
-    
+#h{
+	grid-column: 1;
 }
-@media (max-width: 768px) {
-    .nav a {
-		letter-spacing: 5px;
-		font-size: 20px;
+#a {
+	grid-column: 2;
+}
+#p {
+	grid-column: 3;
+}
+#c {
+	grid-column: 4;
+}
+
+@media (min-width: 1024px){
+	.nav a {
+		font-size: 1.5em;
+		letter-spacing: 1vw;
 	}
 }
-.nav li {
-	grid-template-columns: auto auto auto auto;
-	background: transparent;
+
+@media (max-width: 768px) {
+    .nav a {
+		font-size: .5em;
+		letter-spacing: 10px;
+		}   
 }
+@media (max-width: 1024px) {
+    .nav a {
+		font-size: 1.5em;
+		letter-spacing: .5vw;
+		
+	}
+}
+@media (max-width: 450px) {
+	.nav a {
+		font-size: 1em;
+	}
+}
+
 .nav a {
-	padding: 12px 16px;
 	text-decoration: none;
-	margin-top: 10px;
 	background: transparent;
 	
 }
-
+.nav li {
+	background: transparent;
+}
  
 .nav a:hover {
 	background: transparent;
