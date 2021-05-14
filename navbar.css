@@ -42,25 +42,25 @@ nav a {
 }
 
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
 	.nav a {
 		font-size: .5em;
 	}
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .nav a {
 		font-size: .5em;
 		letter-spacing: 10px;
 		}   
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .nav a {
 		font-size: 1.5em;
 		letter-spacing: .5vw;
 		
 	}
 }
-@media (min-width: 1024px){
+@media (min-width: 1440px){
 	.nav a {
 		font-size: 1.5em;
 		letter-spacing: 1vw;

@@ -1,5 +1,86 @@
-@media (min-width: 768px)
-{	.Landingpage {
+@media (min-width: 375px){
+	.Landingpage {
+		display: grid;
+		grid-template-columns: 10% 80% 10%;
+		align-items: center;
+		justify-content: center;
+		background: url(images/9.jpg);
+        height: 100vh;
+        width: 90%;
+		margin: 0 auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 60px;
+	}
+    .heroText{
+		grid-column: 2/3;
+		width: 90%;
+		height: 50%;
+		position: absolute;
+		text-align: center;
+	}
+	.heroText h1{
+		font-family: Verdana, sans-serif;		
+		letter-spacing: 2px;		
+		font-size: 5vw;
+	}
+	.heroText p{
+		font-size: 3vw;
+		font-family: 'Merriweather', serif;
+		text-align: center;
+	}
+	.heroText a{
+		font-size: 20px;
+	}
+}
+@media (min-width: 768px){
+	.Landingpage {
+		display: grid;
+		grid-template-columns: 10% 80% 10%;
+		align-items: center;
+		justify-content: center;
+		background: url(images/9.jpg);
+        height: 100vh;
+        width: 90%;
+		margin: 0 auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 60px;
+		text-align: center;
+	}
+    .heroText{
+		grid-column: 2/3;
+		width: 75%;
+		height: 50%;
+		position: absolute;
+	}
+	.heroText h1{
+		font-family: Verdana, sans-serif;		
+		letter-spacing: 2px;		
+		font-size: 5em;
+		color: #D99E30;
+	}
+	.heroText p{
+		font-size: 2.5em;
+		font-family: 'Merriweather', serif;
+		text-align: center;
+	}
+	.heroText a{
+		font-size: 20px;
+	}
+
+}
+@media (min-width: 1024px) {}
+
+@media (min-width: 1440px)
+{	
+	.Landingpage {
 		display: grid;
 		grid-template-columns: 20% 60% 20%;
 		align-items: center;
@@ -41,85 +122,8 @@
 		letter-spacing: 5px;
 		}
 }
-@media (max-width: 768px){
-	.Landingpage {
-		display: grid;
-		grid-template-columns: 10% 80% 10%;
-		align-items: center;
-		justify-content: center;
-		background: url(images/9.jpg);
-        height: 100vh;
-        width: 90%;
-		margin: 0 auto;
-        position: relative;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 60px;
-		text-align: center;
-	}
-    .heroText{
-		grid-column: 2/3;
-		width: 75%;
-		height: 50%;
-		position: absolute;
-	}
-	.heroText h1{
-		font-family: Verdana, sans-serif;		
-		letter-spacing: 2px;		
-		font-size: 5em;
-		color: #D99E30;
-	}
-	.heroText p{
-		font-size: 2.5em;
-		font-family: 'Merriweather', serif;
-		text-align: center;
-	}
-	.heroText a{
-		font-size: 20px;
-	}
 
-}
-@media (max-width: 425px){
-	.Landingpage {
-		display: grid;
-		grid-template-columns: 10% 80% 10%;
-		align-items: center;
-		justify-content: center;
-		background: url(images/9.jpg);
-        height: 100vh;
-        width: 90%;
-		margin: 0 auto;
-        position: relative;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 60px;
-		text-align: center;
-	}
-    .heroText{
-		grid-column: 2/3;
-		width: 75%;
-		height: 50%;
-		position: absolute;
-	}
-	.heroText h1{
-		font-family: Verdana, sans-serif;		
-		letter-spacing: 2px;		
-		font-size: 5em;
-		color: #D99E30;
-	}
-	.heroText p{
-		font-size: 2.5em;
-		font-family: 'Merriweather', serif;
-		text-align: center;
-	}
-	.heroText a{
-		font-size: 20px;
-	}
-}
+
 	
 
 
