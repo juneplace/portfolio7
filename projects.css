@@ -14,48 +14,56 @@
     justify-content: space-between;
     align-content: center;
   }
+  .card{
+    height: 50vh;
+  }
+  .over{
+    margin: 10px; 
+    margin-top: 60px
+  }
 }
 @media (min-width: 768px) {
   .projects-view{
-    display: grid;
-    grid-template-columns: 50% 50%;
     justify-content: space-between;
     align-content: center;
   }
+  .card{
+    height: 50vh;
+  }
+  .over{
+    margin: 10px; 
+    margin-top: 60px
+  }
 }
-@media(min-width: 1024px){
+@media(min-width: 1000px){
     .projects-view{
-      display: grid;
-      grid-template-columns: 50% 50%;
       justify-content: space-between;
       align-content: center;
   } 
+  .card{
+    height: 40vh;
+  }
+  
+
 }
 
 @media(min-width: 1440px) {
 
   .projects-view{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     justify-content: space-between;
     align-content: center;
   }
   
   .projects h1 {
       font-size: 70px;
-
   }
-  .modal {
-      width: 300px;
-      padding: 10px;
-      font-size:20px;
-      position: absolute;
-      right: 50px;
-      left: 50px;
-      top: 50px;
-      bottom: 50px;
-      z-index: 9999;
-    }
+  .card{
+    height: 50vh;
+  }
+  .over{
+    margin: 10px; 
+    margin-top: 60px
+  }
 }
 
 
