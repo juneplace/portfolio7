@@ -1,4 +1,4 @@
-.lang span {
+.lang > span {
 	background:#113132; 
     padding: 20px; 
 	font-family: 'Roboto', sans-serif;
@@ -7,7 +7,7 @@
  .pageSection{
 	background-color: #113132
  }
- .pageSection p{
+ .pageSection > p{
 	color: #D9AD2B;
 	border-bottom: 1px solid #D9AD2B;
 	border-top: 1px solid #BF7315; 
@@ -76,7 +76,7 @@ h1 {
 		justify-content: left;
 		margin-top: 50px;
 	}
-	.pageSection p {
+	.pageSection > p {
 		letter-spacing: 3px;
 		font-size: 18px;
 	}
@@ -106,7 +106,7 @@ h1 {
 		margin-top: 50px;
 		background-color: #113132;
 	}
-	.pageSection p {
+	.pageSection > p {
 		letter-spacing: 3px;
 		margin: 50px;
 		font-size: 18px;
