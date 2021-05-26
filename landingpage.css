@@ -1,3 +1,10 @@
+h2 {
+	font-family: 'Merriweather', serif;
+	margin-bottom: 50px;
+	color: #D99E30;
+}
+
+
 @media (min-width: 375px){
 	.Landingpage {
 		display: grid;
@@ -19,23 +26,27 @@
     .heroText{
 		grid-column: 2/3;
 		grid-row: 2/3;
-		width: 90%;
+		width: 100%;
 		position: absolute;
-		text-align: center;
 	}
 	.heroText h1{
 		font-family: Verdana, sans-serif;		
 		letter-spacing: 0.75em;
-		font-size: 5vw;
+		font-size: 2.5em;
+		text-align: center;
 	}
-	.heroText p{
+	.heroText h3{
 		font-size: 3vw;
 		font-family: 'Merriweather', serif;
 		letter-spacing: 0.75em;
 		text-align: center;
 	}
 	.heroText a{
-		font-size: 20px;
+		font-size: 1em;
+	}
+	h2 {
+		font-size: 40px;
+		text-align: center;
 	}
 }
 @media (min-width: 768px){
@@ -48,8 +59,8 @@
         width: 90%;
 		margin: 0 auto;
         position: relative;
-		align-items: center;
 		justify-content: center;
+		align-items: center;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -60,7 +71,7 @@
     .heroText{
 		grid-column: 2/3;
 		grid-row: 2/3;
-		width: 75%;
+		width: 100%;
 		height: 50%;
 		position: absolute;
 	}
@@ -71,7 +82,7 @@
 		color: #D99E30;
 		text-align: center;
 	}
-	.heroText p{
+	.heroText h3{
 		text-align: center;
 		font-size: 1.5em;
 		letter-spacing: 0.75em;
@@ -81,7 +92,10 @@
 	.heroText a{
 		font-size: 20px;
 	}
-
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
 }
 @media (min-width: 1024px){
 	.Landingpage {
@@ -114,7 +128,7 @@
 		font-family: Verdana, sans-serif;
 	
 }
-	.heroText p{
+	.heroText h3{
 		text-align: center;
 		font-size: 3vw;
 		letter-spacing: 0.5em;
@@ -126,6 +140,10 @@
 		font-size: 1.5vw;
 		letter-spacing: 5px;
 		}
+	h2 {
+			font-size: 60px;
+		}
+
 }
 @media (min-width: 1440px){	
 	.Landingpage {
@@ -163,13 +181,14 @@
 		letter-spacing: 0.5em;
 		font-family: 'Merriweather', serif;
 		text-align: center;
-
-		
 		}
 	.heroText a{
 		font-size: 1.5vw;
 		letter-spacing: 5px;
 		}
+	h2 {
+		font-size: 70px;
+	}
 }
 
 
