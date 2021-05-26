@@ -22,7 +22,7 @@ h1 {
 	font-family: 'Merriweather', serif;
 }
  
-@media (min-width: 375px) {
+@media (min-width: 300px) {
     .aboutLang {
 		height: 100%;
 		display: grid;

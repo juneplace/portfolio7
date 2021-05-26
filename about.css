@@ -1,4 +1,4 @@
-@media (min-width: 375px){
+@media (min-width: 300px){
 	.about {
 		display: grid;
 		grid-template-columns: 100%;
