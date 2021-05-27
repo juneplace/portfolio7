@@ -9,19 +9,20 @@ h2 {
 @media (min-width: 200px){
 	.Landingpage {
 		display: grid;
-		grid-template-columns: 20% 60% 20%;
+		grid-template-columns: 10% 80% 10%;
 		grid-template-rows: 20% 60% 20%;
 		background: url(images/9.jpg);
         height: 100vh;
         width: 90%;
 		margin: 0 auto;
         position: relative;
+		align-items: center;
+		justify-content: center;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 60px;
-		text-align: center;
 	}
     .heroText{
 		grid-column: 2/3;
