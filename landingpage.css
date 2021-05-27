@@ -6,7 +6,7 @@ h2 {
 }
 
 
-@media (min-width: 300px){
+@media (min-width: 200px){
 	.Landingpage {
 		display: grid;
 		grid-template-columns: 10% 80% 10%;
