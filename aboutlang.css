@@ -1,23 +1,26 @@
 .lang span {
-	background:#A5BF7E; 
+	background: #fafafb; 
     padding: 20px; 
 	font-family: 'Roboto', sans-serif;
 	font-variant: normal;
  }
  .pageSection{
-	background-color: #A5BF7E
+	background: url(images/11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
  }
- .pageSection p{
-	color: black;
+ .pageSection p {
+	margin: 50px 20px;
+	line-height: 0.1em;
+
+
+ }
+ .pageSection p:hover{
 	border-bottom: 1px solid rgb(109, 108, 108);
 	border-top: 1px solid black; 
 	line-height: 0.1em;
-	margin: 50px 20px;
 	text-align: left;
  }
-.section-title{
-	color: black;
-}
 h1 {
 	font-family: 'Merriweather', serif;
 }
@@ -38,7 +41,6 @@ h1 {
 	}
 	.section-title {
 		grid-column: 1;
-		color: black;
 	}
 }
 @media (min-width: 768px) {
@@ -57,7 +59,6 @@ h1 {
 	}
 	.section-title {
 		grid-column: 1;
-		color: black;
 		text-align: center;
 	}
 }
@@ -101,7 +102,6 @@ h1 {
 	}
 	.section-title {
 		grid-column: 2;
-		color: black;
 		text-align: right;
 	}
 	.pageSection {
@@ -110,15 +110,7 @@ h1 {
 		justify-content: left;
 		background-color: #A5BF7E;
 	}
-	.pageSection p {
-		letter-spacing: 3px;
-		margin: 50px;
-		font-size: 18px;
-		color: black;
-		border-bottom: 1px solid rgb(109, 108, 108);
-		border-top: 1px solid black; 
-		line-height: 0.1em;
-	}
+
 	
 
 h1 {
