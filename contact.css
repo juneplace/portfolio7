@@ -1,7 +1,7 @@
 
 @media (min-width: 300px){
    #email{
-       font-size: xx-small;
+       font-size: smaller;
    }
     .contact {
         display: grid;
