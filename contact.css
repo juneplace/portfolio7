@@ -1,5 +1,8 @@
 
 @media (min-width: 300px){
+   #email{
+       font-size: xx-small;
+   }
     .contact {
         display: grid;
         grid-template-columns: 100%;
