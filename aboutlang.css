@@ -1,22 +1,22 @@
 .lang span {
-	background:#113132; 
+	background:#A5BF7E; 
     padding: 20px; 
 	font-family: 'Roboto', sans-serif;
 	font-variant: normal;
  }
  .pageSection{
-	background-color: #113132
+	background-color: #A5BF7E
  }
  .pageSection p{
-	color: #D9AD2B;
-	border-bottom: 1px solid #D9AD2B;
-	border-top: 1px solid #BF7315; 
+	color: black;
+	border-bottom: 1px solid rgb(109, 108, 108);
+	border-top: 1px solid black; 
 	line-height: 0.1em;
 	margin: 50px 20px;
 	text-align: left;
  }
 .section-title{
-	color: #D99E30;
+	color: black;
 }
 h1 {
 	font-family: 'Merriweather', serif;
@@ -34,11 +34,11 @@ h1 {
 	.pageSection {
 		grid-column: 1;
 		justify-content: left;
-		background-color: #113132;
+		background-color: #A5BF7E;
 	}
 	.section-title {
 		grid-column: 1;
-		color: #D99E30;
+		color: black;
 	}
 }
 @media (min-width: 768px) {
@@ -53,11 +53,11 @@ h1 {
 	.pageSection {
 		grid-column: 1;
 		justify-content: left;
-		background-color: #113132;
+		background-color: #A5BF7E;
 	}
 	.section-title {
 		grid-column: 1;
-		color: #D99E30;
+		color: black;
 		text-align: center;
 	}
 }
@@ -101,22 +101,22 @@ h1 {
 	}
 	.section-title {
 		grid-column: 2;
-		color: #D99E30;
+		color: black;
 		text-align: right;
 	}
 	.pageSection {
 		grid-column: 1;
 		grid-row: 1;
 		justify-content: left;
-		background-color: #113132;
+		background-color: #A5BF7E;
 	}
 	.pageSection p {
 		letter-spacing: 3px;
 		margin: 50px;
 		font-size: 18px;
-		color: #D9AD2B;
-		border-bottom: 1px solid #D9AD2B;
-		border-top: 1px solid #BF7315; 
+		color: black;
+		border-bottom: 1px solid rgb(109, 108, 108);
+		border-top: 1px solid black; 
 		line-height: 0.1em;
 	}
 	

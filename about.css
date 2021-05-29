@@ -107,7 +107,7 @@
 .separating {
 justify-content: center;
 align-content: initial;
-background-color: #113132;
+background-color: #A5BF7E;
 padding: 20px;
 padding-top: 20px;
 }
@@ -116,21 +116,21 @@ padding-top: 20px;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 5px;
 	margin-bottom: 20px;
-	color: #D9AD2B;
+
 }
 .separating p {
 	font-family: 'Roboto', sans-serif;
 	font-variant: normal;
 	letter-spacing: 3px;
 	margin-bottom: 40px;
-	color: #D9AD2B;
+
 }
 .cardy {
-	border-bottom: #D9AD2B 1px solid;
+	border-bottom: black 1px solid;
 }
 .separating hr{
-	color: #BF7315;
-	background-color: #BF7315;
+	color: black;
+	background-color: black;
 }
 
 

@@ -1,8 +1,12 @@
+.linky{
+    margin-top: 20px;
+}
 
 @media (min-width: 300px){
    #email{
        font-size: smaller;
    }
+
     .contact {
         display: grid;
         grid-template-columns: 100%;
@@ -13,7 +17,7 @@
     }
     .form {
         grid-column: 1;
-        background-color: #113132;
+        background-color: #A5BF7E;
         padding: 40px;
         padding-top: 70px;
         padding-bottom: 70px;
@@ -30,22 +34,22 @@
 
     }
     .contact-link {
-        border: #113132 1px solid;
-        background-color: #113132 ;
+        border: #A5BF7E 1px solid;
+        background-color: #A5BF7E ;
         margin-top: 50px;
         margin-bottom: 50px;
         align-items: center;
     }
     .contact-link a {
         font-size: 10px;
-        color: #D99E30;
+        color: black;
         font-family: "Roboto", sans-serif;
         margin: 20px;
         font-weight: lighter;
     }
     .contact-link svg {
         margin: 20px;
-        color: #D99E30;
+        color: black;
     }
 }
 @media (min-width: 768px){
@@ -57,14 +61,6 @@
         align-content: center;
         margin-bottom: 10px;
     }
-    .form {
-        grid-column: 1;
-        background-color: #113132;
-        padding: 40px;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        color: ivory;
-    }
     
     .contactme {
         grid-column: 1;
@@ -74,18 +70,18 @@
     .contactme h2 {
         text-align: center;
         font-family: 'Merriweather', serif;
-        color: #D99E30;
+        color: black;
     }
     .contact-link {
-        border: #113132 1px solid;
-        background-color: #113132 ;
+        border: #A5BF7E 1px solid;
+        background-color: #A5BF7E ;
         margin-top: 50px;
         margin-bottom: 50px;
         align-items: center;
     }
     .contact-link a {
         font-size: 15px;
-        color: #D99E30;
+        color: black;
         font-family: "Roboto", sans-serif;
         margin: 20px;
         font-weight: lighter;
@@ -93,7 +89,7 @@
     }
     .contact-link svg {
         margin: 20px;
-        color: #D99E30;
+        color: black;
     }
     
 }
@@ -107,15 +103,6 @@
         align-content: center;
         margin-bottom: 10px;
     }
-    .form {
-        grid-column: 1;
-        grid-row: 1;
-        background-color: #113132;
-        padding: 40px;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        color: ivory;
-    }
     
     .contactme {
         grid-column: 2;
@@ -126,19 +113,19 @@
     .contactme h2 {
         text-align: right;
         font-family: 'Merriweather', serif;
-        color: #D99E30;
+        color: black;
         font-size: 70px;
     }
     .contact-link {
-        border: #113132 1px solid;
-        background-color: #113132 ;
+        border: #A5BF7E 1px solid;
+        background-color: #A5BF7E ;
         margin-top: 50px;
         margin-bottom: 50px;
         align-items: center;
     }
     .contact-link a {
         font-size: 15px;
-        color: #D99E30;
+        color: black;
         font-family: "Roboto", sans-serif;
         margin: 20px;
         font-weight: lighter;
@@ -146,7 +133,7 @@
     }
     .contact-link svg {
         margin: 20px;
-        color: #D99E30;
+        color: black;
     }
 }
 @media (min-width: 1440px){
@@ -162,7 +149,7 @@
     .form {
         grid-column: 1;
         grid-row: 1;
-        background-color: #113132;
+        background-color: #A5BF7E;
         padding: 40px;
         padding-top: 70px;
         padding-bottom: 70px;
@@ -178,19 +165,19 @@
     .contactme h2 {
         text-align: right;
         font-family: 'Merriweather', serif;
-        color: #D99E30;
+        color: black;
         font-size: 70px;
     }
     .contact-link {
-        border: #113132 1px solid;
-        background-color: #113132 ;
+        border: #A5BF7E 1px solid;
+        background-color: #A5BF7E ;
         margin-top: 50px;
         margin-bottom: 50px;
         align-items: center;
     }
     .contact-link a {
         font-size: 20px;
-        color: #D99E30;
+        color: black;
         font-family: "Roboto", sans-serif;
         margin: 20px;
         font-weight: lighter;
@@ -198,7 +185,7 @@
     }
     .contact-link svg {
         margin: 20px;
-        color: #D99E30;
+        color: black;
     }
 }
 
