@@ -29,7 +29,7 @@ h1 {
         grid-template-columns: 100%;
 		width: 100%;		
 		justify-content: space-evenly;
-		padding: 40px;
+		padding: 20px;
 	}
 	.pageSection {
 		grid-column: 1;
