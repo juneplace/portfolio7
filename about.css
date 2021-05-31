@@ -108,7 +108,10 @@
 justify-content: center;
 align-content: initial;
 background: url(images/10.png);
-border: #D99E30 5px solid;
+border: #333 5px solid;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 padding: 20px;
 padding-top: 20px;
 }

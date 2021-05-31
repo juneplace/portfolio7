@@ -4,7 +4,7 @@
 .contact-link {
     display: flex;
     align-items: center;
-    border: #D99E30 5px solid;
+    border: #333 5px solid;
 }
 .contact-link a {
     color: #333;
