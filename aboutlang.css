@@ -1,11 +1,14 @@
 .lang span {
-	background: #fafafb; 
     padding: 20px; 
 	font-family: 'Roboto', sans-serif;
 	font-variant: normal;
  }
  .pageSection{
 	background: url(images/11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: initial;
+	border: #D99E30 solid 5px;
 	background-repeat: no-repeat;
 	background-size: cover;
  }
@@ -15,12 +18,7 @@
 
 
  }
- .pageSection p:hover{
-	border-bottom: 1px solid rgb(109, 108, 108);
-	border-top: 1px solid black; 
-	line-height: 0.1em;
-	text-align: left;
- }
+
 h1 {
 	font-family: 'Merriweather', serif;
 }
